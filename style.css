@@ -1,0 +1,116 @@
+header{
+    padding: 40px 40px;
+}
+
+body{
+    width: 1440px;
+    background: #EFF1FA;
+}
+
+form{
+    margin: 40px 40px;  
+}
+
+
+
+.input-encriptar{
+    display: block;
+    position: absolute;
+    width: 577px;
+    height: 944px;
+    border-radius: 24px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    margin-left: 40px;
+    line-height: normal;
+}
+
+p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 40px 0;
+
+}
+
+.input-desencriptar{
+    display: block;
+    position:relative;
+    width: 400px;
+    height: 944px;
+    left: 940px;
+    border-radius: 32px;
+    text-align:start;
+    
+
+}
+
+.botones{
+    width: Fixed (680px);
+    height: Hug (67px);
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+}
+
+
+
+.botones{
+    margin: 70px 120px;
+    
+}
+
+.container__boton1{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background: rgba(10, 56, 113, 1);
+    color: white;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+
+.container__boton2{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+    background: rgba(216, 223, 232, 1);
+    color: rgba(10, 56, 113, 1);
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+
+
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 20p;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background: url(img/6053836.jpg);
+    padding: 40px;
+}
