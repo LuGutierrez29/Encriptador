@@ -39,6 +39,7 @@ p{
 
 
 .input-desencriptar{
+    padding: 10px;
     width: 400px;
     height: 944px;
     top: 40px;
@@ -69,6 +70,7 @@ p{
 }
 
 .mensajesEncriptado{
+    padding: 10px;
     position: absolute;
     width: Fixed (336px);
     height: Hug (122px);
@@ -82,13 +84,13 @@ p{
     width: 336px;
     height: 58px;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 29px;
     letter-spacing: 0em;
     text-align: center;
     color: #343A40;
-    ;
+    
 
 }
 
@@ -159,9 +161,10 @@ p{
     margin: 20p;
     text-align: center;
 }
-/* footer{
 
-    position: 0 900px;
+ footer{
+    position: relative;
+    top: 100%;
     background: url(img/fondo\ footer.jpg);
     padding: 40px;
-} */
+}
