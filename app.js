@@ -52,12 +52,13 @@ function desencriptar() {
 }
 
 function copiarPortapapeles() {
-    let texto = document.querySelector(".input-desencriptar");
-    texto.selected();
+   var texto = document.querySelector(".input-desencriptar").value;
+    texto.focus();
     texto.setSelectionRange(0, 99999);
     
     navigator.clipboard.writeText(texto.value);
-    alert('copiado el texto'+ texto.value);
+    alert('copiado el texto');
+    return;
     
 }
 
