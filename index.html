@@ -22,11 +22,12 @@
 
             <form>
                 <section class="cajaEncriptar">
-                    <input type="text" class="input-encriptar" style="text-transform:lowercase" placeholder="Ingrese el texto a Encriptar aquí" required>
+                    <textarea type="text" class="input-encriptar" style="text-transform:lowercase" placeholder="Ingrese el texto a Encriptar aquí"  required></textarea>
                 </section>
 
                 <section class="cajaDesencriptar">
                     <textarea type="text" class="input-desencriptar" style="text-transform:lowercase"  required> </textarea>
+                    <button onclick="copiarPortapapeles()" class="container__boton3">Copiar</button>
                 </section>
                 
                               
@@ -38,14 +39,15 @@
                 
                 <div class="mensajeEncontrado"><h1>Ningún Mensaje fue encontrado</h1></div>
                 <div class="textoDeseado"><h2>Ingresa el texto que desees encriptar o desencriptar</h2></div>    
-
+                
             </section>
             
             <section class="botones">
                 <p><img src="img/bi_exclamation-circle-fill.png" alt="exclamacion"> Solo letras minúsculas y sin acentos</p>
                 <button onclick="encriptar();" class="container__boton1">Encriptar</button>
                 <button onclick="desencriptar();" class="container__boton2" id="reiniciar">Desencriptar</button>
-                <button onclick="copiarPortapapeles()" class="container__boton1">Copiar</button>
+                
+                
             </section>
 
         </main>

@@ -52,19 +52,18 @@ function desencriptar() {
 }
 
 function copiarPortapapeles() {
-   var texto = document.querySelector(".input-desencriptar").value;
-    texto.focus();
+    var texto = document.querySelector('.input-desencriptar');
+    texto.select();
     texto.setSelectionRange(0, 99999);
-    
-    navigator.clipboard.writeText(texto.value);
-    alert('copiado el texto');
+    document.execCommand('copy');
     return;
-    
 }
 
 function limpiarCaja(){
         document.querySelector('.input-encriptar').value = '';
 }
+
+
 
 desencriptar()
 encriptar();
