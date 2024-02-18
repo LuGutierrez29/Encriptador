@@ -63,8 +63,6 @@ function limpiarCaja(){
         document.querySelector('.input-encriptar').value = '';
 }
 
-
-
 desencriptar()
 encriptar();
 copiarPortapapeles()
