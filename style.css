@@ -7,7 +7,9 @@ body{
     height: 1024px;
     top: 622px;
     left: -2277px;
-    background: #EFF1FA;
+    background: linear-gradient(190deg,#EFF1FA,rgb(232, 243, 250) );
+    background-repeat: no-repeat;
+    background-size: 1440px 1155px;
 }
 
 p{
@@ -23,11 +25,15 @@ p{
 
 .input-encriptar{
     position: absolute;
+    background-color:#fffff0;
     width: 577px;
     height: 750px;
+    max-width: 577px;
+    max-height: 750px;
     top: 168px;
     left: 240px;
-    border: none;
+    border-radius: 30px;
+    padding: 20px;
     font-family: Inter;
     font-size: 32px;
     font-weight: 400;
@@ -43,6 +49,9 @@ p{
     padding: 10px;
     width: 400px;
     height: 944px;
+    max-height: 944px;
+    max-width: 400px;
+    background-color: #fffff0;
     top: 40px;
     left: 1000px;
     border-radius: 32px;
@@ -69,8 +78,8 @@ p{
 .mensajesEncriptado{
     padding: 10px;
     position: absolute;
-    width: Fixed (336px);
-    height: Hug (122px);
+    width: 336px;
+    height:122px;
     top: 619px;
     left: 1032px;
     gap: 16px;
@@ -106,13 +115,11 @@ p{
 
 .botones{
     position: absolute;
-    margin: 40px;
-    width: Fixed (680px);
-    height: Hug (67px);
-    top: 885px;
-    left: 240px;
+    width: 680px;
+    height:67px;
+    top: 950px;
+    left: 222px;
     gap: 24px;
-
 }
 
 .container__boton1{
@@ -132,6 +139,13 @@ p{
     
 }
 
+.container__boton1:hover{
+
+    background:#1e878f;
+    color:#02e202;
+    transition: 1000ms;
+}
+
 .container__boton2{
     width: 328px;
     height: 67px;
@@ -149,12 +163,19 @@ p{
 
 }
 
+.container__boton2:hover{
+
+    background:#1e878f;
+    color:#02e202;
+    transition: 1000ms;
+}
+
 .container__boton3{
     position: absolute;
     width: 336px;
     height: 67px;
     top: 885px;
-    left: 1032px;
+    left: 1045px;
     padding: 24px;
     border-radius: 24px;
     gap: 8px;
@@ -165,25 +186,31 @@ p{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-
-
-
-
 }
 
+.container__boton3:hover{
 
-
-
-.copyright{
-    color: #FFFFFF;
-    font-size: 20px;
-    margin: 20p;
-    text-align: center;
+    background:#1e878f;
+    color:#02e202;
+    transition: 1000ms;
 }
+
 
  footer{
     position: relative;
     top: 100%;
-    background: url(img/fondo\ footer.jpg);
+    background: url(img/img-fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding: 40px;
+    opacity: 50%;
 }
+.copyright{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    opacity: 100%;
+}
+
+
+
